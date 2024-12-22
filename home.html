@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>PDF Table Extractor</title>
+</head>
+<body style="background-color:rgb(100, 100, 130);">
+    <h1 align="center">PDF Table Extractor</h1>
+    <form action="/process/" method="post" enctype="multipart/form-data">
+        <h2 align="center"><label  for="pdf_file">Upload Your PDF:</label></h2>
+        <h3 align="center"><input type="file" id="pdf_file" name="pdf_file" required><br><br></h3>
+    </form>
+
+    <form action="/process/" method="post" enctype="multipart/form-data">
+        <h2 align="center"><label  for="CSV_file">Upload CSV_file:</label></h2>
+        <h3 align="center"><input type="file" id="csv_file" name="csv_file" required><br><br></h3>
+        <h4 align ="center"><button type="submit">Extract Tables</button></h4>
+    </form>
+
+</body>
+</html>
